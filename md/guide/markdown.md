@@ -23,3 +23,7 @@
 使用方法：英文中括号[]填写内容，()内填写链接
 
 效果展示：[百度](https://www.baidu.com)
+
+# 在VS code中预览md文件
+1. VS code市场中搜索并安装Markdown Preview Enhanced插件
+2. 在md文档页面按ctrl+shift+v
