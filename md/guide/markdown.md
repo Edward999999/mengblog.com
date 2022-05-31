@@ -24,6 +24,15 @@
 
 效果展示：[百度](https://www.baidu.com)
 
-# 在VS code中预览md文件
+
+
+# 在VS code中预览Markdown文件
 1. VS code市场中搜索并安装Markdown Preview Enhanced插件
 2. 在md文档页面按ctrl+shift+v
+
+# 在Markdown中插入图片
+使用方法：
+1. 英文叹号+中括号![图片]，()内填写链接
+2.  _![图片]：如果图片无法加载，默认显示”图片“文字
+ps:本地路径一定要注意路径的/方向，反了可获取不到
+效果展示：![图片](https://fuss10.elemecdn.com/e/5d/4a731a90594a4af544c0c25941171jpeg.jpeg)
