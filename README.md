@@ -1,16 +1,13 @@
 # 我的导航
 # 常用网址
 [语雀工作台](https://www.yuque.com/dashboard) |
-[animate字体动效网站](https://animate.style/) |
 [Markdown语法介绍](https://blog.csdn.net/afei__/article/details/80717153) |
-[使用VS code创建Django项目](https://www.cnblogs.com/LuckyZLi/p/9812838.html) |
-[Django VUE实战](https://www.cnblogs.com/wodeboke-y/p/13922109.html?ivk_sa=1024320u) |
-[vite+vue3+ts简单例子todolist](https://blog.csdn.net/jason_renyu/article/details/123211625?spm=1001.2014.3001.5502) |
-[Vite 文档](https://vitejs.cn/guide/#scaffolding-your-first-vite-project) |
+
 # 搭建个人博客
 ## docsify
-[手把手教你从0开始搭建个人博客](https://blog.csdn.net/guoguo527/article/details/121759507) |
 [docsify官网](https://docsify.js.org/#/zh-cn/quickstart) |
+[docsify详解](https://blog.csdn.net/liyou123456789/article/details/124504727) |
+[手把手教你从0开始搭建个人博客](https://blog.csdn.net/guoguo527/article/details/121759507) |
 [docsify+github/gitee搭建个人在线文档](https://blog.csdn.net/Mark_md/article/details/121457115) |
 ## github博客项目
 [项目1](https://github.com/jcc/blog) |
@@ -50,5 +47,11 @@
 [Vue使用富文本编辑器](https://zhuanlan.zhihu.com/p/43416702) |
 [tinyMCE富文本文档](http://tinymce.ax-z.cn/) |
 [vue-element-admin](https://panjiachen.gitee.io/vue-element-admin-site/zh/) |
+[使用VS code创建Django项目](https://www.cnblogs.com/LuckyZLi/p/9812838.html) |
+[Django VUE实战](https://www.cnblogs.com/wodeboke-y/p/13922109.html?ivk_sa=1024320u) |
+[vite+vue3+ts简单例子todolist](https://blog.csdn.net/jason_renyu/article/details/123211625?spm=1001.2014.3001.5502) |
+[Vite 文档](https://vitejs.cn/guide/#scaffolding-your-first-vite-project) |
+[animate字体动效网站](https://animate.style/) |
 # 其他
 [使用 telegram 来收发微信消息](https://www.iszy.cc/posts/ehforwarderbot/) |
+
