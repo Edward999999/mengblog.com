@@ -3,3 +3,4 @@
 * [docsify](md/guide/docsify.md)
 * [markdown语法](md/guide/markdown.md)
 * [教程](md/guide/guide.md)
+* [AI学习](md/DailyWork/AI.md)
