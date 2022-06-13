@@ -2,6 +2,7 @@
 # 常用网址
 [语雀工作台](https://www.yuque.com/dashboard) |
 [Markdown语法介绍](https://blog.csdn.net/afei__/article/details/80717153) |
+[Markdown使用的一些经验](https://zhuanlan.zhihu.com/p/139609492?from_voters_page=true&ivk_sa=1024320u) |
 
 # 搭建个人博客
 ## docsify
@@ -51,7 +52,10 @@
 [Django VUE实战](https://www.cnblogs.com/wodeboke-y/p/13922109.html?ivk_sa=1024320u) |
 [vite+vue3+ts简单例子todolist](https://blog.csdn.net/jason_renyu/article/details/123211625?spm=1001.2014.3001.5502) |
 [Vite 文档](https://vitejs.cn/guide/#scaffolding-your-first-vite-project) |
-[animate字体动效网站](https://animate.style/) |
+|
 # 其他
 [使用 telegram 来收发微信消息](https://www.iszy.cc/posts/ehforwarderbot/) |
+[animate字体动效网站](https://animate.style/) |
+[Icon图标资源网站推荐](https://zhuanlan.zhihu.com/p/434666282)
+[格式转换](https://www.aconvert.com/)
 
