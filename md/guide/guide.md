@@ -2,16 +2,18 @@
 # CMD 命令
 ## ADB命令
 查看当前设备分辨率:
+
     adb shell wm size
 查看当前设备屏幕密度（DPI）:
+
     adb shell wm density
 
 # Git 相关
 ## 通过git上传代码
-1. git add .
-2. git commit -m "describe"
-3. git pull origin master
-4. git push -u  origin master
+    git add .
+    git commit -m "describe"
+    git pull origin master
+    git push -u  origin master
 ## 怎么设置Github代码仓库私有
 第一步：点击项目列表，进入设置页面
 
@@ -150,18 +152,22 @@ ps:本地路径一定要注意路径的/方向，反了可获取不到
 
 # Linux使用指南
 ## Debian中创建文件夹以及文件
-1. 创建文件夹
+### 创建文件夹
+   
     mkdir /your folder name/
-2. 删除文件夹
+### 删除文件夹
     rm -rf /your folder name/ 
-3. Py文件并编辑
+## 创建Py文件并编辑
     vim test.py
 
 按insert或i ，编辑 
+
 ESC退出编辑 
+
 :wq保存退出 
-4. 执行python文件报错退出
-   quit()
+
+### 执行python文件报错退出
+    quit()
 ## 复制文件/tmp
     cp file.txt /tmp/
 ### 复制所有文件到目录/tmp
@@ -200,50 +206,54 @@ ESC退出编辑
     $ rm -rf .*
 [Debian安装Python](md/guide/Python/installPythonOnDebian.md)
 # 在Debian上安装Nodejs教程
-sudo apt update
-
-sudo apt install nodejs npm
-
-nodejs --version
+    sudo apt update
+    sudo apt install nodejs npm
+    nodejs --version
 
 # 在Debian上安装Python教程
 在 Debian 上构建 Python 3.9 是一个相对简单的过程，只需几分钟。
 
-1. 首先安装构建Python源所需的包：
-    sudo apt update 
-    sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
-2. 使用以下curl命令从Python下载页面下载最新版本的源代码：
-    curl -O https://www.python.org/ftp/python/3.9.9/Python-3.9.9.tgz
+1. 安装构建Python源所需的包：
     
-版本号可以根据最新得Python版本更新
-在撰写本文时，最新版本是3.9.9。
+        sudo apt update
+        sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+
+2. 使用以下curl命令从Python下载页面下载最新版本的源代码：
+
+        curl -O https://www.python.org/ftp/python/3.9.9/Python-3.9.9.tgz
+    
+    版本号可以根据最新得Python版本更新，在撰写本文时，最新版本是3.9.9。
 
 3. 下载完成后解压tgz压缩包
-    tar -xf Python-3.9.9.tgz
+    
+        tar -xf Python-3.9.9.tgz
 
 4. 导航到Python源目录并运行configure脚本，该脚本将执行大量检查以确保系统上存在所有依赖项：
 先切换到Python源目录
-    cd Python-3.9.9 
+
+        cd Python-3.9.9 
+
 再运行configure脚本
+
     ./configure --enable-optimizations --enable-share
 
 --enable-optimizations选项将通过运行多个测试来优化Python二进制文件，这将使构建过程变慢。
 
 5. 运行make以启动构建过程：
 
-    make -j 2
+        make -j 2
 
 为了缩短构建时间，请根据处理器修改-j标志。 如果你不知道处理器的核心数，可以通过键入nproc来找到它。 我的系统有2个内核，所以我使用-j2标志。
 
 6. 构建完成后，通过以具有sudo访问权限的用户身份运行以下命令来安装Python二进制文件：
 
-    sudo make altinstall
+        sudo make altinstall
 
 不要使用标准的make install，因为它会覆盖默认的系统python3二进制文件。
 
 7. 此时，Python 3.9.9已安装在你的Debian系统上并可以使用。 你可以输入以下命令进行验证：
 
-    python3.9 --version
+        python3.9 --version
 
 输出版本信息
 
@@ -269,7 +279,7 @@ pip3.9，也改成pip了
 1. 执行以下命令`pip install pyinstaller`
 2. 执行升级命令`python -m pip install --upgrade pip`
 3. 修改打包工具软连接
-    sudo ln -s /usr/local/bin/python3.9/bin/pyinstaller /usr/bin/pyinstaller
+        sudo ln -s /usr/local/bin/python3.9/bin/pyinstaller /usr/bin/pyinstaller
 
 
 ### PyInstaller报错
@@ -303,7 +313,7 @@ pip3.9，也改成pip了
     * If you are building Python by yourself, rebuild with `--enable-shared` (or, `--enable-framework` on macOS)`
 1. 重新执行安装步骤4-6
 2. 再执行下属命令
-    cp libpython3.so libpython3.9.so.1.0 /usr/lib64/
+        cp libpython3.so libpython3.9.so.1.0 /usr/lib64/
 
 
 
