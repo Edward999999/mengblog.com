@@ -165,7 +165,10 @@ ps:本地路径一定要注意路径的/方向，反了可获取不到
 ESC退出编辑 
 
 :wq保存退出 
-
+### 运行python程序
+程序后台运行`nohup python main.py &`
+查看后台运行的进程`ps -aux`
+杀死进程 `kill -9 进程号`
 ### 执行python文件报错退出
     quit()
 ## 复制文件/tmp
@@ -304,7 +307,7 @@ pip3.9，也改成pip了
     1. 打包命令`pyinstaller -F main.py`
     2. 进入打包好得执行文件存放目录`cd dist/`
     3. 尝试执行 `./main` 
-    4. 程序后台运行`nohub ./main &`
+
        
 ## 打包报错
     * On Debian/Ubuntu, you need to install Python development packages:
